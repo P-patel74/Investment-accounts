@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <title>Investment Accounts</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <script src="random-library.js"></script>
+    <script defer src="main.js"></script>
+  </head>
+
+  <body>
+    <h1>Investment Accounts</h1>
+    <hr />
+    <p>
+      Select an action from the drop-down menu and then click the 'Go' button to
+      perform the action.
+    </p>
+    <p>
+      <select id="menu-select">
+        <option value="deposit">Deposit</option>
+        <option value="withdrawal">Withdrawal</option>
+        <option value="count">Count Under $2000</option>
+        <option value="donor">Generous Donor</option>
+        <option value="attack">Hacker Attack</option>
+      </select>
+      <button id="go-btn">Go</button>
+    </p>
+
+    <!-- Container to draw array visualization -->
+    <div id="container"></div>
+
+    <!-- Div that may be used for any output -->
+    <div id="output">----</div>
+  </body>
+</html>
